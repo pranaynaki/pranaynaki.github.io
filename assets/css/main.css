@@ -2317,9 +2317,6 @@
 		}
 
 			.dropotron.level-0:before {
-				border-bottom: solid 0.5em #fff;
-				border-left: solid 0.5em transparent;
-				border-right: solid 0.5em transparent;
 				content: '';
 				left: 0.75em;
 				position: absolute;
