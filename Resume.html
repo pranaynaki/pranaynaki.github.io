@@ -18,13 +18,13 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-			<header id="header">
+				<header id="header">
 					<h1 id="logo" style="text-transform:lowercase"><a href="index.html">Pranay<span>Naki</span></a></h1>
 					<nav id="nav">
 						<ul>
 							<li class="current" style="text-transform:none"><a href="index.html">Home</a></li>
 							<li class="submenu">
-								<a href="#">Menu</a>
+								<a href="#">Projects</a>
 								<ul>
 									<li><a href="left-sidebar.html">Courses</a></li>
 									<li><a href="right-sidebar.html">Personal</a></li>
@@ -38,44 +38,32 @@
 				</header>
 
 			<!-- Main -->
-				<article id="main">
+				<article id="main" >
 
+					
 					<header class="special container">
+						<span class="icon fa-file-text-o fa-lg"></span>
+						<h2> <strong>Resume</strong> 
+						<br />
+						</h2>
 						
-						<span class="icon fa-commenting-o fa-lg"></span>
-						<h2>Text Generator</h2>
-						<p1>Demo Page #1</p>						
 						
 					</header>
 					
 					<!-- One -->
-						<section class="wrapper style4 container" style="margin-bottom:0px">
-
+						<section class="wrapper style4 container">
+								
 							<!-- Content -->
-								<div class="content">
-									<section>
-										<img style="background:aliceblue; margin-left:25%; width:50%" src="images/Markovchain.png" alt=""/>
-										<a style="margin-left:45%" target="_blank" href="https://commons.wikimedia.org/w/index.php?search=markov+chain&title=Special:Search&go=Go&searchToken=bj9ugedz8kbrtewph3mrewl60#/media/File:MarkovChain1.png">WikiCommons</a>
-										<header>
-											<h3>Markov Chain Text Generator</h3>
-										</header>
-										<p>This text generator takes a text file as input and generates a stream of output that resembles the original work in its style of writing. The output even seems to follow grammar rules correctly (for the most part). How does it do that?? Well, a <a target="_blank" href="https://en.wikipedia.org/wiki/Markov_chain">markov chain</a> is first constructed using the input. The chain can optionally be trained on any characteristic of the text file, but I have defaulted it to words for simplicity. States for this chain are sequences of 3 consecutive words, and a directed graph is constructed between all possible states. A random state is then picked to generate an output stream, from which the next state is generated, and so on.</p>
-										<p>Go ahead and try it! Either click the GENERATE! button below (defaults to one of my favorite books), or paste your own url pointing to a .txt file. A good place to find one is the <a target="_blank" href="https://cdn.preterhuman.net/texts/literature/books_by_title/N%20-%20S/">Higher Intellect</a> Database.</p>
+								<div class="content" >
+									<section style="padding-bottom: 70.25%; height:0">
+										<!-- <a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a> -->
+										<iframe src="https://drive.google.com/file/d/0B5UbRV2ef764OU1EVG1xSlVleE0/preview#view=fitH" width="100%" height="100%" class="image featured"></iframe>
+										
 									</section>
 								</div>
 
 						</section>
 
-						<div style="padding-left:10%;padding-top:20px;padding-right:10%">
-							<form onsubmit="return false" >
-								<input type="text" placeholder="http:// url in here plis, den click generate. set for 300 words rn" id="inputurl" style="background:white"></input>
-								<input type="submit" id="getreq" class="special" value="Generate!" style="margin-left:30%; width:40%"></input>
-							
-							</form>
-						</div>
-						<div style="padding:20px">
-							<p id="msg" style="background:azure; padding:20px; display:none"></p>
-						</div>
 					<!-- Two -->
 						<section class="wrapper style1 container special">
 							<div class="row">
