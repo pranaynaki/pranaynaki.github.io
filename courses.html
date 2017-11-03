@@ -66,8 +66,8 @@
 										<header>
 											<h3>Current</h3>
 										</header>
-										<p><strong>Operating Systems</strong> (439) - So far, Dr. Gheith's projects have included dealing with concurrency issues between multiple processors, implementing cooperative multithreading, and implementing a heap along with malloc/free/realloc in C.</p>
-										<p><strong>Artificial Intelligence</strong> (343) - Dr. Miikkulainen's first project involved using OpenNERO to write an IDA* search algorithm in python.</p>
+										<p><strong>Operating Systems</strong> (439) - So far, Dr. Gheith's projects have included implementing cooperative multithreading on a 32-bit system, dealing with concurrency issues between multiple processors (we implemented semaphores using spinlocks for protection, which in turn, used atomic TSL instructions), and implementing a heap along with malloc/free/realloc in C/C++. Our most recent project involved implementing virtual memory using 32-bit paging with 4Kb pages. We also discussed inverted page tables and their uses for 64-bit systems, but did not implement them.</p>
+										<p><strong>Artificial Intelligence</strong> (343) - Dr. Miikkulainen's first project involved using OpenNERO to write an IDA* search algorithm in python. In one of our other projects, we used Q learning to 'teach' an agent how to find a goal position in a maze. This project had an interesting twist in that it used a tiling method to approximate Q values over an entire region of positions in the maze (as opposed to giving each position its own Q value), thus conserving a significant amount of memory in exchange for an increased constant within the search algorithm's time complexity (we were using k nearest neighbours).</p>
 										<header>
 											<h3>Past</h3>
 										</header>
