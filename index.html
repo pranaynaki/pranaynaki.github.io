@@ -7,6 +7,16 @@
 <html>
 	
 	<head >
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111330176-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-111330176-1');
+		</script>
+
 		<title>Home</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -57,9 +67,9 @@
 						<header>
 							<h2 style="text-transform:none; color:#fffacd">Pranay Nakirekanti</h2>
 						</header>
-						<p>Software Developer && Computer Science Student
+						<div><p id="msg"></div>
 						
-						</p>
+					
 						<footer>
 							<ul class="buttons vertical">
 								<li><a href="#main" class="button fit scrolly">Tell Me More</a></li>
@@ -245,7 +255,16 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/5.0.1/typeit.min.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+			new TypeIt('#short-description', {
+				strings: 'This is a simple string.',
+				speed: 50,
+				autoStart: true
+			});
+			</script>
+			
 
 	</body>
 </html>
